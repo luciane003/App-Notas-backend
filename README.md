@@ -24,7 +24,7 @@ http://localhost:3000
 
 ## 🔗 Frontend
 O frontend deste projeto está neste repositório:
-👉 (link)[]
+👉 (link)[https://github.com/luciane003/App-Notas-frontend]
 
 ## Status
 - Funcional localmente
