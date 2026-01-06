@@ -29,7 +29,7 @@ O frontend deste projeto está neste repositório:
 
 ## Status
 - Funcional localmente
-- Proximo passo: deploy do backend
+- Próximo passo: deploy do backend
 
 ### Autora 
 -  Luciane Kellen
