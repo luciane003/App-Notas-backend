@@ -7,6 +7,12 @@ app.use(cors());
 
 let anotacoes: {id: number; texto: string;}[] = [];
 
+const PORT = process.env.PORT || 3000;
+
+app.listen(PORT, () => {
+  console.log(`Servidor rodadno na porta ${PORT}`);
+});
+
 app.get("/", (req, res) => {
   res.send("API de anotações funcionando!");
 });
