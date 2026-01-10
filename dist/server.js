@@ -6,7 +6,7 @@ app.use(cors());
 let anotacoes = [];
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
-    console.log(`Servidor rodadno na porta ${PORT}`);
+    console.log(`Servidor rodando na porta ${PORT}`);
 });
 app.get("/", (req, res) => {
     res.send("API de anotações funcionando!");
@@ -34,7 +34,4 @@ app.delete("/anotacoes/:id", (req, res) => {
     }
     anotacoes = anotacoes.filter(nota => nota.id !== id);
     res.status(200).json({ message: "Anotação deletada com sucesso!" });
-});
-app.listen(3000, () => {
-    console.log('Servidor em execução em http://localhost:3000');
 });
