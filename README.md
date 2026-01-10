@@ -1,5 +1,5 @@
 # 📌 API de Anotações
-Backend do projeto **Anotadinho**, responsável por criar, listar e excluir anotações.
+Backend do projeto **Anotadinho**, responsável por criar, listar e excluir anotações. Este projeto foi desenvolvido como parte do meu processo de aprendizagem em backend.
 
 ## Tecnologias
 <div style="display: inline_block">
@@ -23,13 +23,23 @@ npm run dev
 ## Servidor rodando em:
 http://localhost:3000
 
+## 🌐 Backend online (Render)
+A API está disponível em produção no Render:
+
+### 🔗 URL base:
+https://app-notas-backend-35yl.onrender.com
+
+### 🔗 Rota:
+https://app-notas-backend-35yl.onrender.com/anotacoes
+
 ## 🔗 Frontend
 O frontend deste projeto está neste repositório:
 👉 [link](https://github.com/luciane003/App-Notas-frontend)
 
 ## Status
-- Funcional localmente
-- Próximo passo: deploy do backend
+- Backend funcional
+- Deploy realizado no Render
+- Em constante evolução e melhorias
 
 ### Autora 
 -  Luciane Kellen
